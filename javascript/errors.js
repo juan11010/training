@@ -103,7 +103,7 @@ function validateDateOfBirth(date) {
     }
 }
 
-const data = '2001/12/12';
+const data = 'Luis';
 const data2 = false;
 
 console.log(validatename(data));
