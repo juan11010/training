@@ -1,8 +1,8 @@
 function isPalindrome(text) {
-    text = text.toLowerCase();
+    const lowerCaseText = text.toLowerCase();
     let newText = "";
-    for(let i = 0; i < text.length; i++) {
-        if(text[i] !== " ") {
+    for(let i = 0; i < lowerCaseText.length; i++) {
+        if(lowerCaseText[i] !== " ") {
             newText += text[i];
         }
     }
